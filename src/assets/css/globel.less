@@ -1,0 +1,52 @@
+//公共搜索栏
+.pub_select {
+  border: 1px solid #ccc;
+  .el-form {
+    .el-row {
+      // border: 1px solid blue;
+      background: #f2f2f2;
+      padding-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      .el-col {
+        box-sizing: border-box; // border: 1px solid red;
+        max-width: 300px;
+        margin-bottom: 15px;
+      }
+    }
+    .el-form-item {
+      width: 100%;
+      margin-bottom: 0;
+
+      .el-form-item__content {
+        width: calc(~'100% - 86px');
+        .el-select,
+        .el-date-editor,
+        .el-cascader,
+        .el-input {
+          width: 100%;
+        }
+      }
+    }
+    .el-button {
+      height: 36px;
+    }
+  }
+} //公共数据条数
+.pub_count {
+  display: inline-block;
+  margin: 0 7px;
+  color: #009933;
+} //公共隔断
+.pub_hr {
+  width: 100%;
+  border: 1px solid red;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+      >div {
+         // border:1px solid red;
+         display: flex;
+         align-items: center;
+        }
+}
